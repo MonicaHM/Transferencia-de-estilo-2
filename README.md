@@ -87,18 +87,19 @@ Si desea modificar el código será necesario guardar una copia en su Drive:
 1. Da clic en **Archivo**
 2. Da clic en **Guardar una copia en Drive** 
 
-**Nota**. Podrá descargar el código para su ejecución local dando clic en **Descargar .ipynb** o **Descarga .py**.
+**Nota**. Podrá descargar el código para su ejecución local dando clic en **Descargar .ipynb** o **Descargar .py**.
 
 ![](https://drive.google.com/uc?export=view&id=18gvCLVFUC__iCyH0bU_v4-tJl6wUt8TQ)
 
 # Realice los pasos escenciales del proyecto
 
 ## Cargue las librerías necesarias
-Para que la ejecución del código en general no lance errores es importante ejecutar la sección: **1. Librerías**
+Para que la ejecución del código no lance errores es importante ejecutar la sección: **1. Librerías**.
+
 ![](https://drive.google.com/uc?export=view&id=1PP49lqkMvNFefadTXcLI-r27HL-nV67n)
 
 ## Cargue la imagen contenido y la imagen estilo
-**Importante**. Para cargar la imagen contenido y la imagen estilo es necesario ejecutar primero la sección **2.1 Funciones necesarias**.
+**Importante**. Para cargar la imagen contenido y la imagen estilo es necesario ejecutar primero las secciones **1. Librerías** y **2.1 Funciones necesarias**.
 
 ### Cargue imágenes predeterminadas
 Ejecute la sección **2.2 Cargar imágenes predeterminadas** y espere a que termine su ejecución. Al final se mostrarán las siguientes imágenes:
