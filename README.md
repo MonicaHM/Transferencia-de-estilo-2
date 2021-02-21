@@ -82,12 +82,12 @@ En general, las capas ocultas se van especializando conforme se van acercando a 
 
 ![](https://drive.google.com/uc?export=view&id=1qYRuMZAU2hzN-q42NX-nKoM4JxOBu4U4)
 
-Si desea modificar el código será necesario guardar una copia en su Drive. Por ello, realice los siguientes pasos:
+Si desea modificar el código será necesario guardar una copia en su Drive:
 
 1. Da clic en **Archivo**
 2. Da clic en **Guardar una copia en Drive** 
 
-También podrá descargar el código para su ejecución local dando clic en **Descargar .ipynb** o **Descarga .py**.
+**Nota**. Podrá descargar el código para su ejecución local dando clic en **Descargar .ipynb** o **Descarga .py**.
 
 ![](https://drive.google.com/uc?export=view&id=18gvCLVFUC__iCyH0bU_v4-tJl6wUt8TQ)
 
