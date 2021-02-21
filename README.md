@@ -53,14 +53,14 @@ Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros forma
 GitHub nos permite descargar el proyecto completo como un ZIP o clonarlo dentro de nuestra computadora.
 
 ### Descarga como ZIP
-1. Visita la página del [repositorio del proyecto](https://github.com/MonicaHM/Transferencia-de-estilo).
+1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
 2. Da clic en el botón **Code**
 3. Da clic en **Download ZIP**
 
 ![](https://drive.google.com/uc?export=view&id=1USlcekIzozaNN5SWAZamfl0BtCSOSH4g)
 
 ### Clona el repositorio desde línea de comando
-1. Visita la página del [repositorio del proyecto](https://github.com/MonicaHM/Transferencia-de-estilo).
+1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
 2. Da clic en el botón **Code**
 3. Da clic en <img align="float" width="17" height="18" src="https://drive.google.com/uc?export=view&id=1P7XHP3GbYB7UqeBTONCZb_AppmsHbm9J"> de la sección **HTTPS** para copiar la URL del repositorio.
 
