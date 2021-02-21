@@ -5,7 +5,7 @@ En este proyecto podrás encontrar el código en python **Vision_17_StyleTransfe
 |:--:| 
 | *Imagen 1: Transferencia de estilo* |
 
-En el código de este proyectyo se podrá encontrar dos formas de obtener la transferencia de estilo: 
+En el código de este proyecto se podrá encontrar dos formas de obtener la transferencia de estilo: 
 1. El primer método es construir una nueva red neuronal a partir de una red neuronal pre-entrenada.
 2. El segundo método es utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
 
