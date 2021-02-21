@@ -13,7 +13,7 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
 
 # Tabla de contenido
 
-- [Teoría detrás del código](#Teoría-detrás-del-código)
+- [Teoría detrás de la transferencia de estilo](#teoría-detrás-de-la-transferencia-de-estilo)
 - [Preparaciones iniciales]()
   * [Abrir el código en un IDE]()
   * [Cargar las librerías necesarias]()
@@ -21,7 +21,7 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
 - [Primer método de transferencia de estilo: terminar de entrenar una red neuronal](#requerimientos-del-sistema)
 - [Segundo método de transferencia de estilo: red neuronal de TensorFlow Hub](#requerimientos-del-sistema)
 
-# Teoría detrás del código
+# Teoría detrás de la transferencia de estilo
 Las redes neuronales convolucionales (CNN) son redes neuronales con aprendizaje supervisado que realiza su procesamiento a través de diversas capas. Estas capas están divididas en: 
 1. Capa de entrada. Recibe los datos de entrada.
 2. Capa oculta. Donde se realiza el procesamiento de los datos.
