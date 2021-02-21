@@ -61,12 +61,12 @@ En general, las capas ocultas se van especializando conforme se van acercando a 
 
 ![](https://drive.google.com/uc?export=view&id=1u-uwSE7G1vvK8hWeXB8O7q-uAO9lrcYg)
 
-4. Abre una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
+4. Abra una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
 5. Escriba `git clone` y pega la URL que copio anteriormente.
 
 ![](https://drive.google.com/uc?export=view&id=1JjlCfzNT--Av7xJQwTN6ZmSuHWivArSi)
 
-6. Da **Enter** para comenzar a crear el clon del repositorio.
+6. Da **Enter** y espera a que termine de clonarse el repositorio.
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
 
@@ -76,7 +76,7 @@ En general, las capas ocultas se van especializando conforme se van acercando a 
 1. Visita la página principal de [Google Colab](https://colab.research.google.com/).
 2. Inicia sesión con su cuenta de Google.
 3. Da clic en la pestaña **GitHub**.
-4. Escriba el URL del repositorio. Para conseguir el URL realice los pasos 1, 2 y 3 de la sección [Clona el repositorio desde línea de comando](#Clona-el-repositorio-desde-línea-de-comando).
+4. Pega el [URL](https://github.com/MonicaHM/Transferencia-de-estilo) del repositorio.
 5. Da **Enter** o clic en <img align="float" width="15" height="15" src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png"> para buscar el repositorio.
 6. Da clic en el nombre del archivo de python **Vision_17_StyleTransfer.ipynb**.
 
