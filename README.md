@@ -26,18 +26,11 @@ En el código podrá encontrar dos métodos para la transferencia de estilo:
 - [Realice la transferencia de estilo con el segundo método](#Realice-la-transferencia-de-estilo-con-el-segundo-método)
 
 # Conozca la teoría detrás del proyecto
-Las redes neuronales convolucionales utilizan el aprendizaje supervisado para realizar su funcionamiento a través de capas. Estas capas se dividen en: 
-1. Capa de entrada. Recibe los datos de entrada.
-2. Capa oculta. Realiza el procesamiento de los datos.
-3. Capa de salida. Proporciona la respuesta de la red neuronal.
+Las redes neuronales convolucionales utilizan el aprendizaje supervisado para realizar su funcionamiento a través de capas. Estas capas se dividen en: capa de entrada, capa oculta y capa de salida. Dentro de las capas ocultas existe una jerarquía:
 
-Dentro de las capas ocultas existe una jerarquía:
+![](https://drive.google.com/uc?export=view&id=1yfGqdGSRmyYIKh6vl40_i2XfYp16T5bI)
 
-| ![](https://drive.google.com/uc?export=view&id=1yfGqdGSRmyYIKh6vl40_i2XfYp16T5bI) | 
-|:--:| 
-| *Imagen 2: Jerarquía de capas ocultas* |
-
-En general, las capas ocultas se van especializando conforme se van acercando a la capa de salida. Tomando en cuenta la jerarquía anterior, se ha demostrado que en las capas ocultas que se encuentran a partir del nivel medio se encargan de detectar del estilo de la imagen. Por lo tanto, la salida de la red neuronal para la transferencia de estilo, no será la capa de salida sino la capa oculta seleccionada como el extractor de estilo.
+Tomando en cuenta la jerarquía anterior, se ha demostrado que en las capas ocultas que se encuentran a partir del nivel medio se encargan de detectar del estilo de la imagen. Por lo tanto, la salida de la red neuronal para la transferencia de estilo, no será la capa de salida sino la capa oculta seleccionada como el extractor de estilo.
 
 # Obtenga el proyecto
 
@@ -50,19 +43,14 @@ En general, las capas ocultas se van especializando conforme se van acercando a 
 
 ![](https://drive.google.com/uc?export=view&id=1USlcekIzozaNN5SWAZamfl0BtCSOSH4g)
 
-### Clone el repositorio desde línea de comando
-1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
-2. Da clic en el botón **Code**.
-3. Da clic en <img align="float" width="17" height="18" src="https://drive.google.com/uc?export=view&id=1P7XHP3GbYB7UqeBTONCZb_AppmsHbm9J"> de la sección **HTTPS** para copiar la URL del repositorio.
-
-![](https://drive.google.com/uc?export=view&id=1u-uwSE7G1vvK8hWeXB8O7q-uAO9lrcYg)
-
-4. Abra una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
-5. Escriba `git clone` y pega la URL que copio anteriormente.
+### Clone el repositorio desde línea de comando (vía HTTPS)
+1. Copia el [URL](https://github.com/MonicaHM/Transferencia-de-estilo.git) del repositorio.
+2. Abra una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
+3. Escriba `git clone` y pega la URL que copio anteriormente.
 
 ![](https://drive.google.com/uc?export=view&id=1JjlCfzNT--Av7xJQwTN6ZmSuHWivArSi)
 
-6. Da **Enter** y espera a que termine de clonarse el repositorio.
+4. Da **Enter** y espera a que termine de clonarse el repositorio.
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
 
