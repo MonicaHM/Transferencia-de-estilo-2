@@ -3,7 +3,7 @@ En este proyecto podrás encontrar el código en Python **Vision_17_StyleTransfe
 
 ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV)
 
-En el código podrá encontrar dos métodos para la transferencia de estilo: 
+Podrás encontrar dos métodos para la transferencia de estilo: 
 1. Construir una nueva red neuronal a partir de una ya pre-entrenada.
 2. Utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
 
@@ -13,7 +13,7 @@ En el código podrá encontrar dos métodos para la transferencia de estilo:
 - [Obtenga el proyecto](#Obtenga-el-proyecto)
   * [Descargue el proyecto](#Descargue-el-proyecto)
     + [Descargue como ZIP](#Descargue-como-ZIP)
-    + [Clone el repositorio desde línea de comando](#Clone-el-repositorio-desde-línea-de-comando)
+    + [Clone el repositorio desde línea de comando](##clone-el-repositorio-desde-línea-de-comando-vía-https)
   * [Copie el proyecto a Google Colab](#Copie-el-proyecto-a-Google-Colab)
 - [Realice los pasos esenciales](#Realice-los-pasos-esenciales)
   * [Cargue las librerías](#Cargue-las-librerías)
