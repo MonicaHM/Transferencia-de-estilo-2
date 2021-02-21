@@ -116,14 +116,14 @@ Ejecute la sección **2.2 Cargar imágenes predeterminadas** y espere a que term
 
 ![](https://drive.google.com/uc?export=view&id=1XhUXpYI7R7wzMWS5kDK47LmMC6PaaO9-)
 
-4. Sustituya los nombres de las imágenes en las variables `content_image` y `style_image` dentro de la celda **2.3 Cargar imágenes propias**.
+3. Sustituya los nombres de las imágenes en las variables `content_image` y `style_image` dentro de la sección **2.3 Cargar imágenes propias**.
 
 ```python
 content_image = load_img('SustituyaNombreImgContenido.SuExtención')
 style_image = load_img('SustituyaNombreImgEstilo.SuExtención')
 ```
 
-6. Ejecute la celda y espere a que finalice para que muestre sus imágenes.
+4. Ejecute la celda y espere a que finalice para que muestre sus imágenes.
 
 ![](https://drive.google.com/uc?export=view&id=1WNuPwztC21Gl0_OlwlCJJPMfan3B1rLc)
 
