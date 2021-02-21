@@ -11,12 +11,12 @@ En el código podrá encontrar dos métodos para la transferencia de estilo:
 
 - [Conozca la teoría detrás del proyecto](#Conozca-la-teoría-detrás-del-proyecto)
 - [Obtenga el proyecto](#Obtenga-el-proyecto)
-  * [Descargue el proyecto para ejecución local](#Descargue-el-proyecto-para-ejecución-local)
+  * [Descargue el proyecto](#Descargue-el-proyecto)
     + [Descargue como ZIP](#Descargue-como-ZIP)
     + [Clone el repositorio desde línea de comando](#Clone-el-repositorio-desde-línea-de-comando)
-  * [Copie el proyecto directamente a Google Colab para ejecución en la nube](#Copie-el-proyecto-directamente-a-Google-Colab-para-ejecución-en-la-nube)
-- [Realice los pasos escenciales del proyecto](#Realice-los-pasos-escenciales-del-proyecto)
-  * [Cargue las librerías necesarias](#Cargue-las-librerías-necesarias)
+  * [Copie el proyecto a Google Colab](#Copie-el-proyecto-a-Google-Colab)
+- [Realice los pasos esenciales](#Realice-los-pasos-esenciales)
+  * [Cargue las librerías](#Cargue-las-librerías)
   * [Cargue la imagen contenido y la imagen estilo](#Cargue-la-imagen-contenido-y-la-imagen-estilo)
     + [Cargue imágenes predeterminadas](#Cargue-imágenes-predeterminadas)
     + [Cargue imágenes propias](#Cargue-imágenes-propias)
@@ -41,7 +41,7 @@ En general, las capas ocultas se van especializando conforme se van acercando a 
 
 # Obtenga el proyecto
 
-## Descargue el proyecto para ejecución local
+## Descargue el proyecto
 
 ### Descargue como ZIP
 1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
@@ -66,7 +66,7 @@ En general, las capas ocultas se van especializando conforme se van acercando a 
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
 
-## Copie el proyecto directamente a Google Colab para ejecución en la nube
+## Copie el proyecto a Google Colab
 **Importante**. Es necesario que posea una cuenta de Google.
 
 1. Visita la página principal de [Google Colab](https://colab.research.google.com/).
@@ -87,9 +87,9 @@ Si desea modificar el código será necesario guardar una copia en su Drive:
 
 ![](https://drive.google.com/uc?export=view&id=18gvCLVFUC__iCyH0bU_v4-tJl6wUt8TQ)
 
-# Realice los pasos escenciales del proyecto
+# Realice los pasos esenciales
 
-## Cargue las librerías necesarias
+## Cargue las librerías
 Para que la ejecución del código no lance errores es importante ejecutar la sección: **1. Librerías**.
 
 ![](https://drive.google.com/uc?export=view&id=1PP49lqkMvNFefadTXcLI-r27HL-nV67n)
