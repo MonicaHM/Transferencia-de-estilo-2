@@ -1,7 +1,7 @@
 # Transferencia de estilo
 En este mini proyecto podrás encontrar el código en python **Vision_17_StyleTransfer**, el cual tiene como objetivo aplicar el estilo de una imagen a otra. Se busca fusionar el contenido de una imagen con el estilo de otra (Imagen 1)
 
-![Imagen 1](img1.png)
+![Imagen 1](img1.png "Imagen 1")
 
 Un ejemplo de lo que se quiere lograr lo podemos encontrar en aplicación para Android [Lucid](https://play.google.com/store/apps/details?id=com.doodle.doodle)
 
@@ -27,6 +27,6 @@ Dentro de las capas intermedias existe una jerarquía (Imagen 2):
 
 En general, se dice que las capas ocultas se van especializando conforme se van acercando a la capa de salida, pues pasan de detectar simples líneas a detectar siluetas de rostros, objetos o animales. 
 
-![Imagen 2](img2.png)
+![Imagen 2](img2.png "Imagen 2")
 
 Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros formados en las capas ocultas que se encuentran a partir de la mitad contienen el estilo de la imagen. Por lo tanto, son estas capas las que se utilizan para entrenar la red de transferencia de estilo.
