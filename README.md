@@ -14,7 +14,7 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
   * [Abrir el código en un IDE]()
   * [Cargar las librerias necesarias]()
   * [Cargar imagen contenido e imagen estilo]()
-- [Primer método de transferencia de estilo. Terminar de entrenar una red neuronal](#requerimientos-del-sistema)
-- [Segundo método de transferencia de estilo. Red neuronal de TensorFlow Hub](#requerimientos-del-sistema)
+- [Primer método de transferencia de estilo: terminar de entrenar una red neuronal](#requerimientos-del-sistema)
+- [Segundo método de transferencia de estilo: red neuronal de TensorFlow Hub](#requerimientos-del-sistema)
 
 # Teoría detras del código
