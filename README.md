@@ -9,7 +9,7 @@ En el código de este proyecto se podrá encontrar dos formas de obtener la tran
 1. El primer método es construir una nueva red neuronal a partir de una red neuronal pre-entrenada.
 2. El segundo método es utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
 
-**Importante.** En esta guia de ususario se utilizará el ambiente de **Google Colab** para los ejemplos visuales. 
+**Importante.** En esta guía de usuario se utilizará el ambiente de **Google Colab** para los ejemplos visuales. 
 
 # Tabla de contenido
 
