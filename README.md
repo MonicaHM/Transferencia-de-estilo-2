@@ -7,9 +7,11 @@ En este proyecto podrás encontrar el código en python **Vision_17_StyleTransfe
 
 Un ejemplo de lo que se quiere lograr lo podemos encontrar en aplicación para Android [Lucid](https://play.google.com/store/apps/details?id=com.doodle.doodle)
 
-En este código se podrá encontrar dos formas de obtener la transferencia de estilo: 
- + El primer método es entrenar una red neuronal pre-entrenada
+En el código del proyectyo se podrá encontrar dos formas de obtener la transferencia de estilo: 
+ + El primer método es construir una nueva red neuronal a partir de una red neuronal pre-entrenada.
  + El segundo método es utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
+
+**Importante.** En esta guia de ususario se utilizará el ambiente de **Google Colab** para los ejemplos visuales. 
 
 # Tabla de contenido
 
@@ -19,12 +21,15 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
     + [Descargue como ZIP](#Descargue-como-ZIP)
     + [Clone el repositorio desde línea de comando](#Clone-el-repositorio-desde-línea-de-comando)
   * [Copie el proyecto directamente a Google Colab para ejecución en la nube](#Copie-el-proyecto-directamente-a-Google-Colab-para-ejecución-en-la-nube)
-- [Ejecute las celdas escenciales del proyecto](#Ejecute-las-celdas-escenciales-del-proyecto)
+- [Realice los pasos escenciales del proyecto](#Realice-los-pasos-escenciales-del-proyecto)
   * [Cargue las librerías necesarias](#Cargue-las-librerías-necesarias)
-  * [Cabie la imagen contenido y la imagen estilo](#Cabie-la-imagen-contenido-y-la-imagen-estilo)
-
-- [Primer método de transferencia de estilo: terminar de entrenar una red neuronal](#requerimientos-del-sistema)
-- [Segundo método de transferencia de estilo: red neuronal de TensorFlow Hub](#requerimientos-del-sistema)
+  * [Cargue la imagen contenido y la imagen estilo](#Cargue-la-imagen-contenido-y-la-imagen-estilo)
+    + [Cargue imágenes predeterminadas](#Cargue-imágenes-predeterminadas)
+    + [Cargue imágenes propias](#Cargue-imágenes-propias)
+- [Realice la transferencia de estilo con el primer método](#Realice-la-transferencia-de-estilo-con-el-primer-método)
+  * [Obtenga resultados por pasos](#Obtenga-resultados-por-pasos)
+  * [Obtenga resultados por épocas](#Obtenga-resultados-por-épocas)
+- [Realice la transferencia de estilo con el segundo método](#Realice-la-transferencia-de-estilo-con-el-segundo-método)
 
 # Conozca la teoría detrás del proyecto
 Las redes neuronales convolucionales (CNN) son redes neuronales de aprendizaje supervisado que realiza su funcionamiento a través de diversas capas. Estas capas están divididas en: 
@@ -92,12 +97,64 @@ Hasta este punto podrá ejecutar el código sin complicaciones, sin embargo, no 
 
 ![](https://drive.google.com/uc?export=view&id=18gvCLVFUC__iCyH0bU_v4-tJl6wUt8TQ)
 
-# Ejecute las celdas escenciales del proyecto
+# Realice los pasos escenciales del proyecto
+
 ## Cargue las librerías necesarias
+Para que la ejecución del código en general no lance errores es importate ejecutar la primera celda de código: **1. Librerías**
+![](https://drive.google.com/uc?export=view&id=1PP49lqkMvNFefadTXcLI-r27HL-nV67n)
+
+## Cargue la imagen contenido y la imagen estilo
+**Importante**. Para cargar la imagen contenido y la imagen estilo es necesario ejecutar primero las celdas de código **2.1 Funciones necesarias** dentro de la sección **2. Imagen contenido e imagen estilo**.
+
+### Cargue imágenes predeterminadas
+Ejecute las celdas dentro de **2.2 Cargar imágenes predeterminadas** y espere a que termine cada una su ejecución. Al final se mostrarán las siguintes imágenes:
+![](https://drive.google.com/uc?export=view&id=1EZBIiee1tXQY8HqTBP5Grdi2uB8Xda1W)
+
+### Cargue imágenes propias
+
+1. Da clic en <img align="float" width="15" height="15" src="https://img.icons8.com/metro/452/folder-invoices.png"> de la barra lateral.
+2. Arrastra desde su **Explorador de archivo** las imánenes que desea utilizar.
+
+![](https://drive.google.com/uc?export=view&id=1XhUXpYI7R7wzMWS5kDK47LmMC6PaaO9-)
+
+4. Sustituya los nombres de las imágenes en las variables `content_image` y `style_image` dentro de la celda **2.3 Cargar imágenes propias**.
+
+```python
+content_image = load_img('SustituyaNombreImgContenido.SuExtención')
+style_image = load_img('SustituyaNombreImgEstilo.SuExtención')
+```
+
+6. Ejecute la celda y espere a que finalice para que muestre sus imágenes.
+
+![](https://drive.google.com/uc?export=view&id=1WNuPwztC21Gl0_OlwlCJJPMfan3B1rLc)
 
 
-## Cabie la imagen contenido y la imagen estilo
+# Realice la transferencia de estilo con el primer método.
+**Importante**. Para poder obtener resultados es necesario primero ejecutar las celdas de código dentro de la sección **3. Primer método**.
+La función `train_step(image)` pasa la imágen de entrada una vez a través de la red neuronal.
+La función `tensor_to_image(image)` nos ayuda a imprimir el tensor que contiene la imágen resultante.
 
+## Obtenga resultados por pasos
+La celda de código **4.1 Transferencia de estilos por pasos** nos ayuda a obtener una imagen resultante con el número de pasos que nosotros programemos. Por ejemplo:
+```python
+train_step(image)
+train_step(image)
+train_step(image)
+```
+Significa que la imagen de contenido fue procesada tres veces a través de la red neuronal.
+![](https://drive.google.com/uc?export=view&id=1QFOslfcYqMbLl3YJqr2QughV5RxqmYvL)
+
+## Obtenga resultados por épocas
+La celda de código **4.2 Transferencia de estilos por épocas** nos ayuda a obtener una imagen resultante con el número de pasos `steps_per_epoch` por epocas `epochs` que nosotros programemos. Por ejemplo:
+```python
+epochs = 10
+steps_per_epoch = 100
+```
+Significa que la imagen de contenido fue procesada por 10 épocas y cada época consta de 100 pasos, danto un total de 1,000 pasos de entrenamiento.
+![](https://drive.google.com/uc?export=view&id=1BH1RQ3ctUKY0YthbC3AN4R5D5D4D6amy)
+
+
+# Realice la transferencia de estilo con el segundo método
 
 
 
