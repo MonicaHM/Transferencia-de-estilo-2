@@ -22,7 +22,10 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
 - [Segundo método de transferencia de estilo: red neuronal de TensorFlow Hub](#requerimientos-del-sistema)
 
 # Teoría detrás del código
-Las redes neuronales convolucionales (CNN) son redes neuronales con aprendizaje supervisado que realiza su procesamiento a través de diversas capas. Estas capas están divididas en: capa de entrada, capa oculta y capa de salida. 
+Las redes neuronales convolucionales (CNN) son redes neuronales con aprendizaje supervisado que realiza su procesamiento a través de diversas capas. Estas capas están divididas en: 
+1. Capa de entrada. Recibe los datos de entrada.
+2. Capa oculta. Donde se realiza el procesamiento de los datos.
+3. Capa de salida. Proporciona la respuesta de la red neuronal. Por ejemplo, regresa un vector de probabilidades para saber a que clase pertenece la imagen de entrada. 
 
 Dentro de las capas intermedias existe una jerarquía (Imagen 2):
 - Las capas ocultas de nivel bajo detectan bordes
@@ -35,4 +38,4 @@ En general, se dice que las capas ocultas se van especializando conforme se van 
 |:--:| 
 | *Imagen 2: Jerarquía de capas ocultas (filtros)* |
 
-Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros formados en las capas ocultas que se encuentran a partir de la mitad contienen el estilo de la imagen. Por lo tanto, son estas capas las que se utilizan para entrenar la red de transferencia de estilo.
+Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros formados en las capas ocultas que se encuentran a partir del nivel medio contienen el estilo de la imagen. Por lo tanto, la salida de la red neuronal para la transferencia de estilo, no será la capa de salida sino la capa oculta seleccionada como extractor de estilo.
