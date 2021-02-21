@@ -71,22 +71,22 @@ Si desea modificar el código será necesario guardar una copia en su Drive:
 1. Da clic en **Archivo**
 2. Da clic en **Guardar una copia en Drive** 
 
-**Nota**. Podrá descargar el código para su ejecución local dando clic en **Descargar .ipynb** o **Descargar .py**.
+**Nota**. Podrá descargar el código dando clic en **Descargar .ipynb** o **Descargar .py**.
 
 ![](https://drive.google.com/uc?export=view&id=18gvCLVFUC__iCyH0bU_v4-tJl6wUt8TQ)
 
 # Realice los pasos esenciales
 
 ## Cargue las librerías
-Para que la ejecución del código no lance errores es importante ejecutar la sección: **1. Librerías**.
+Ejecutar la seccióno **1. Librerías** es indispensable para evitar errores.
 
 ![](https://drive.google.com/uc?export=view&id=1PP49lqkMvNFefadTXcLI-r27HL-nV67n)
 
 ## Cargue la imagen contenido y la imagen estilo
-**Importante**. Para cargar la imagen contenido y la imagen estilo es necesario ejecutar primero las secciones **1. Librerías** y **2.1 Funciones necesarias**.
+**Importante**. Ejecute primero las secciones **1. Librerías** y **2.1 Funciones necesarias**.
 
 ### Cargue imágenes predeterminadas
-Ejecute la sección **2.2 Cargar imágenes predeterminadas** y espere a que termine su ejecución. Se mostrarán las siguientes imágenes:
+Ejecute la sección **2.2 Cargar imágenes predeterminadas**. Se mostrarán las siguientes imágenes:
 ![](https://drive.google.com/uc?export=view&id=1EZBIiee1tXQY8HqTBP5Grdi2uB8Xda1W)
 
 ### Cargue imágenes propias
@@ -99,50 +99,50 @@ Ejecute la sección **2.2 Cargar imágenes predeterminadas** y espere a que term
 3. Sustituya los nombres de las imágenes en las variables `content_image` y `style_image` dentro de la sección **2.3 Cargar imágenes propias**.
 
 ```python
-content_image = load_img('SustituyaNombreImgContenido.SuExtención')
-style_image = load_img('SustituyaNombreImgEstilo.SuExtención')
+content_image = load_img('ImgContenido.SuExtención')
+style_image = load_img('ImgEstilo.SuExtención')
 ```
 
-4. Ejecute la celda y espere a que finalice para que muestre sus imágenes.
+4. Ejecute la celda para cargar sus imágenes.
 
 ![](https://drive.google.com/uc?export=view&id=1WNuPwztC21Gl0_OlwlCJJPMfan3B1rLc)
 
 
 # Realice la transferencia de estilo con el primer método.
-**Importante**. Para poder obtener resultados es necesario:
-+ Haber importado las librerias.
-+ Haber cargado la imagen contenido e imagen estilo.
-+ Haber ejecutado las celdas de código dentro de las seccion **3. Primer método**.
+**Importante**. Es necesario:
++ Importar las librerías.
++ Cargar imagen contenido e imagen estilo.
++ Ejecutar la sección **3. Primer método**.
 
-La función `train_step(image)` pasa la imágen de entrada una vez a través de la red neuronal.
-La función `tensor_to_image(image)` nos ayuda a imprimir el tensor que contiene la imágen resultante.
+**Nota**. La función `train_step(image)` procesa la imágen de entrada una vez a través de la red neuronal.
 
 ## Obtenga resultados por pasos
-La celda de código **4.1 Transferencia de estilos por pasos** nos ayuda a obtener una imagen resultante con el número de pasos que nosotros programemos. Por ejemplo:
+La sección **4.1 Transferencia de estilos por pasos** nos da una imagen procesada con el número de pasos que nosotros programemos. Por ejemplo:
 ```python
 train_step(image)
 train_step(image)
 train_step(image)
 ```
-Significa que la imagen de contenido fue procesada tres veces a través de la red neuronal.
+Significa que la imagen contenido fue procesada tres veces a través de la red neuronal.
+
 ![](https://drive.google.com/uc?export=view&id=1QFOslfcYqMbLl3YJqr2QughV5RxqmYvL)
 
 ## Obtenga resultados por épocas
-La celda de código **4.2 Transferencia de estilos por épocas** nos ayuda a obtener una imagen resultante con el número de pasos `steps_per_epoch` por epocas `epochs` que nosotros programemos. Por ejemplo:
+La sección **4.2 Transferencia de estilos por épocas** nos da una imagen procesada con `steps_per_epoch` número de pasos y  `epochs` número de épocas que nosotros programemos. Por ejemplo:
 ```python
 epochs = 10
 steps_per_epoch = 100
 ```
-Significa que la imagen de contenido fue procesada por 10 épocas y cada época consta de 100 pasos, danto un total de 1,000 pasos de entrenamiento.
+Significa que la imagen contenido fue procesada durante 10 épocas y cada época constó de 100 pasos.
 ![](https://drive.google.com/uc?export=view&id=1BH1RQ3ctUKY0YthbC3AN4R5D5D4D6amy)
 
 
 # Realice la transferencia de estilo con el segundo método
-**Importante**. Para poder obtener resultados es necesario:
-+ Haber importado las librerias.
-+ Haber cargado la imagen contenido e imagen estilo.
+**Importante**. Es necesario:
++ Importar las librerías.
++ Cargar imagen contenido e imagen estilo.
 
-Para este segundo método se carga un red neuronal del repositorio de TensorFlow Hub, por ello no se puede modificar la red neuronal. Para obtener la imagen resultante solo es necesario ejecutar la celda de la sección **5. Segundo método: TensorFlow Hub** y esperar a que finalice.
+Para este segundo método se carga una red neuronal del repositorio de TensorFlow Hub. Para obtener la imagen procesada solo es necesario ejecutar la sección **5. Segundo método: TensorFlow Hub**.
 
 ![](https://drive.google.com/uc?export=view&id=1tJhTGE_kdDa0ssRY0J9BHrJF22F7UImy)
 
