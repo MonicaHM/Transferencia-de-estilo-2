@@ -30,17 +30,17 @@ En el código de este proyecto se podrá encontrar dos formas de obtener la tran
 - [Realice la transferencia de estilo con el segundo método](#Realice-la-transferencia-de-estilo-con-el-segundo-método)
 
 # Conozca la teoría detrás del proyecto
-Las redes neuronales convolucionales (CNN) son redes neuronales de aprendizaje supervisado que realiza su funcionamiento a través de diversas capas. Estas capas están divididas en: 
+Las redes neuronales convolucionales (CNN) son redes neuronales de aprendizaje supervisado que realizan su funcionamiento a través de capas. Estas capas están divididas en: 
 1. Capa de entrada. Recibe los datos de entrada.
 2. Capa oculta. Donde se realiza el procesamiento de los datos.
-3. Capa de salida. Proporciona la respuesta de la red neuronal. Por ejemplo, regresa un vector de probabilidades para saber a que clase pertenece la imagen de entrada. 
+3. Capa de salida. Proporciona la respuesta de la red neuronal.
 
 Dentro de las capas intermedias existe una jerarquía (Imagen 2):
 - Las capas ocultas de nivel bajo detectan bordes
 - Las capas ocultas de nivel medio detectan esquinas y contornos.
 - Las capas ocultas de nivel alto detectan partes de objetos o formas complejas. 
 
-En general, se dice que las capas ocultas se van especializando conforme se van acercando a la capa de salida, pues pasan de detectar simples líneas a detectar siluetas de rostros, objetos o animales. 
+En general, las capas ocultas se van especializando conforme se van acercando a la capa de salida.
 
 | ![](https://drive.google.com/uc?export=view&id=1yfGqdGSRmyYIKh6vl40_i2XfYp16T5bI) | 
 |:--:| 
