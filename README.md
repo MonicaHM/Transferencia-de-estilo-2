@@ -1,7 +1,7 @@
 # Transferencia de estilo
 En este mini proyecto podrás encontrar el código en python **Vision_17_StyleTransfer**, el cual tiene como objetivo aplicar el estilo de una imagen a otra. Es decir, se busca fusionar el contenido de una imagen con el estilo de otra (Imagen 1)
 
-| ![](img1.png) | 
+| ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV) | 
 |:--:| 
 | *Imagen 1: Transferencia de estilo* |
 
@@ -15,7 +15,8 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
 
 - [Teoría detrás de la transferencia de estilo](#teoría-detrás-de-la-transferencia-de-estilo)
 - [Preparaciones iniciales](#Preparaciones-iniciales)
-  * [Abrir el código en un IDE](##Abrir-el-código-en-un-IDE)
+  * [Abrir el código en un IDE](#Abrir-el-código-en-un-IDE)
+    + [Descargar código](#Descargar-código)
   * [Cargar las librerías necesarias]()
   * [Cargar imagen contenido e imagen estilo]()
 - [Primer método de transferencia de estilo: terminar de entrenar una red neuronal](#requerimientos-del-sistema)
@@ -34,7 +35,7 @@ Dentro de las capas intermedias existe una jerarquía (Imagen 2):
 
 En general, se dice que las capas ocultas se van especializando conforme se van acercando a la capa de salida, pues pasan de detectar simples líneas a detectar siluetas de rostros, objetos o animales. 
 
-| ![](img2.png) | 
+| ![](https://drive.google.com/uc?export=view&id=1yfGqdGSRmyYIKh6vl40_i2XfYp16T5bI) | 
 |:--:| 
 | *Imagen 2: Jerarquía de capas ocultas (filtros)* |
 
@@ -43,3 +44,28 @@ Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros forma
 # Preparaciones iniciales
 
 ## Abrir el código en un IDE
+
+### Descargar código
+GitHub nos permite descargar el proyecto completo como un ZIP o clonarlo dentro de nuestra computadora.
+
+**Descargar proyecto como ZIP:**
+1. Visita la página del [repositorio del proyecto](https://github.com/MonicaHM/Transferencia-de-estilo).
+2. Da clic en el botón **Code**
+3. Da clic en **Download ZIP**
+
+**Clonar el repositorio con línea de comando**
+1. Visita la página del [repositorio del proyecto](https://github.com/MonicaHM/Transferencia-de-estilo).
+2. Da clic en el botón **Code**
+3. Da clic en <img align="float" width="17" height="18" src="https://drive.google.com/uc?export=view&id=1P7XHP3GbYB7UqeBTONCZb_AppmsHbm9J"> de la sección **HTTPS** para copiar la URL del repositorio.
+4. Abre una consola de comando de tu computadora.
+5. Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el repositorio.
+6. Escribe 'git clone' y pega la URL que copio anteriormente.
+7. Da **Enter** para terminal de crear el clon del repositorio.
+
+
+
+
+
+
+
+
