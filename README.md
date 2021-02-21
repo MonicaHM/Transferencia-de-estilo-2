@@ -1,5 +1,5 @@
 # Transferencia de estilo
-En este proyecto podrás encontrar el código en Python **Vision_17_StyleTransfer**, el cual tiene como objetivo fusionar el contenido de una imagen con el estilo de otra.
+Este proyecto tiene como objetivo fusionar el contenido de una imagen con el estilo de otra.
 
 ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV)
 
@@ -78,7 +78,7 @@ Si desea modificar el código será necesario guardar una copia en su Drive:
 # Realice los pasos esenciales
 
 ## Cargue las librerías
-Ejecutar la seccióno **1. Librerías** es indispensable para evitar errores.
+Ejecutar la sección **1. Librerías** es indispensable para evitar errores.
 
 ![](https://drive.google.com/uc?export=view&id=1PP49lqkMvNFefadTXcLI-r27HL-nV67n)
 
