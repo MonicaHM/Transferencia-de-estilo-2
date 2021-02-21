@@ -14,11 +14,17 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
 # Tabla de contenido
 
 - [Teoría detrás de la transferencia de estilo](#teoría-detrás-de-la-transferencia-de-estilo)
-- [Descargar proyecto](#Descargar-proyecto)
-- [Abrir el código en un IDE](#Abrir-el-código-en-un-IDE)
-- [Preparaciones iniciales](#Preparaciones-iniciales)
-  * [Cargar las librerías necesarias]()
-  * [Cargar imagen contenido e imagen estilo]()
+- [Obten el proyecto](#Obten-el-proyecto)
+  * [Descarga el proyecto para ejecución local](#Descarga-el-proyecto-para-ejecución-local)
+    + [Descarga como ZIP](#Descarga-como-ZIP)
+    + [Clona el repositorio desde línea de comando](#Clona-el-repositorio-desde-línea-de-comando)
+  * [Copia el proyecto directamente a Google Colab](#Copia-el-proyecto-directamente-a-Google-Colab)
+
+
+- [Abre el código en un IDE](#Abre-el-código-en-un-IDE)
+- [Realiza las precionaciones iniciales](#Preparaciones-iniciales)
+  * [Carga las librerías necesarias]()
+  * [Carga imagen contenido e imagen estilo]()
 - [Primer método de transferencia de estilo: terminar de entrenar una red neuronal](#requerimientos-del-sistema)
 - [Segundo método de transferencia de estilo: red neuronal de TensorFlow Hub](#requerimientos-del-sistema)
 
@@ -41,23 +47,36 @@ En general, se dice que las capas ocultas se van especializando conforme se van 
 
 Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros formados en las capas ocultas que se encuentran a partir del nivel medio contienen el estilo de la imagen. Por lo tanto, la salida de la red neuronal para la transferencia de estilo, no será la capa de salida sino la capa oculta seleccionada como extractor de estilo.
 
-# Descargar proyecto
+# Obten el proyecto
+
+## Descarga el proyecto para ejecución local
 GitHub nos permite descargar el proyecto completo como un ZIP o clonarlo dentro de nuestra computadora.
 
-**Descargar proyecto como ZIP:**
+### Descarga como ZIP
 1. Visita la página del [repositorio del proyecto](https://github.com/MonicaHM/Transferencia-de-estilo).
 2. Da clic en el botón **Code**
 3. Da clic en **Download ZIP**
 
-**Clonar el repositorio con línea de comando**
+![](https://drive.google.com/uc?export=view&id=1USlcekIzozaNN5SWAZamfl0BtCSOSH4g)
+
+### Clona el repositorio desde línea de comando
 1. Visita la página del [repositorio del proyecto](https://github.com/MonicaHM/Transferencia-de-estilo).
 2. Da clic en el botón **Code**
 3. Da clic en <img align="float" width="17" height="18" src="https://drive.google.com/uc?export=view&id=1P7XHP3GbYB7UqeBTONCZb_AppmsHbm9J"> de la sección **HTTPS** para copiar la URL del repositorio.
-4. Abre una consola de comando de tu computadora.
-5. Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el repositorio.
-6. Escribe 'git clone' y pega la URL que copio anteriormente.
-7. Da **Enter** para terminal de crear el clon del repositorio.
 
+![](https://drive.google.com/uc?export=view&id=1u-uwSE7G1vvK8hWeXB8O7q-uAO9lrcYg)
+
+5. Abre una consola de comando de tu computadora.
+6. Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el repositorio.
+7. Escribe 'git clone' y pega la URL que copio anteriormente.
+
+![](https://drive.google.com/uc?export=view&id=1JjlCfzNT--Av7xJQwTN6ZmSuHWivArSi)
+
+9. Da **Enter** para comenzar a crear el clon del repositorio.
+
+![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
+
+## Copia el proyecto directamente a Google Colab
 
 
 
