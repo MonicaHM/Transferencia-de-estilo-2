@@ -1,5 +1,5 @@
 # Transferencia de estilo
-En este proyecto podrás encontrar el código en Python **Vision_17_StyleTransfer**, el cual tiene como objetivo fusionar el contenido de una imagen con el estilo de otra (Imagen 1).
+En este proyecto podrás encontrar el código en Python **Vision_17_StyleTransfer**, el cual tiene como objetivo fusionar el contenido de una imagen con el estilo de otra.
 
 | ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV) | 
 |:--:| 
@@ -62,7 +62,7 @@ En general, las capas ocultas se van especializando conforme se van acercando a 
 ![](https://drive.google.com/uc?export=view&id=1u-uwSE7G1vvK8hWeXB8O7q-uAO9lrcYg)
 
 4. Abre una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
-5. Escriba 'git clone' y pega la URL que copio anteriormente.
+5. Escriba `git clone` y pega la URL que copio anteriormente.
 
 ![](https://drive.google.com/uc?export=view&id=1JjlCfzNT--Av7xJQwTN6ZmSuHWivArSi)
 
