@@ -1,5 +1,5 @@
 # Transferencia de estilo
-En este proyecto podrás encontrar el código en python **Vision_17_StyleTransfer**, el cual tiene como objetivo fusionar el contenido de una imagen con el estilo de otra (Imagen 1)
+En este proyecto podrás encontrar el código en python **Vision_17_StyleTransfer**, el cual tiene como objetivo fusionar el contenido de una imagen con el estilo de otra (Imagen 1).
 
 | ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV) | 
 |:--:| 
@@ -36,7 +36,7 @@ Las redes neuronales convolucionales (CNN) son redes neuronales de aprendizaje s
 3. Capa de salida. Proporciona la respuesta de la red neuronal.
 
 Dentro de las capas intermedias existe una jerarquía (Imagen 2):
-- Las capas ocultas de nivel bajo detectan bordes
+- Las capas ocultas de nivel bajo detectan bordes.
 - Las capas ocultas de nivel medio detectan esquinas y contornos.
 - Las capas ocultas de nivel alto detectan partes de objetos o formas complejas. 
 
@@ -54,14 +54,14 @@ Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros forma
 
 ### Descargue como ZIP
 1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
-2. Da clic en el botón **Code**
-3. Da clic en **Download ZIP**
+2. Da clic en el botón **Code**.
+3. Da clic en **Download ZIP**.
 
 ![](https://drive.google.com/uc?export=view&id=1USlcekIzozaNN5SWAZamfl0BtCSOSH4g)
 
 ### Clone el repositorio desde línea de comando
 1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
-2. Da clic en el botón **Code**
+2. Da clic en el botón **Code**.
 3. Da clic en <img align="float" width="17" height="18" src="https://drive.google.com/uc?export=view&id=1P7XHP3GbYB7UqeBTONCZb_AppmsHbm9J"> de la sección **HTTPS** para copiar la URL del repositorio.
 
 ![](https://drive.google.com/uc?export=view&id=1u-uwSE7G1vvK8hWeXB8O7q-uAO9lrcYg)
@@ -78,10 +78,10 @@ Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros forma
 ## Copie el proyecto directamente a Google Colab para ejecución en la nube
 **Importante**. Es necesario que posea una cuenta de Google.
 
-1. Visita la página principal de [Google Colab](https://colab.research.google.com/)
+1. Visita la página principal de [Google Colab](https://colab.research.google.com/).
 2. Inicia sesión con su cuenta de Google.
 3. Da clic en la pestaña **GitHub**.
-4. Escriba el URL del repositorio. Para conseguir el URL realice los pasos 1, 2 y 3 de la sección [Clona el repositorio desde línea de comando](#Clona-el-repositorio-desde-línea-de-comando)
+4. Escriba el URL del repositorio. Para conseguir el URL realice los pasos 1, 2 y 3 de la sección [Clona el repositorio desde línea de comando](#Clona-el-repositorio-desde-línea-de-comando).
 5. Da **Enter** o clic en <img align="float" width="15" height="15" src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png"> para buscar el repositorio.
 6. Da clic en el nombre del archivo de python **Vision_17_StyleTransfer.ipynb**.
 
@@ -99,14 +99,14 @@ También podrá descargar el código para su ejecución local dando clic en **De
 # Realice los pasos escenciales del proyecto
 
 ## Cargue las librerías necesarias
-Para que la ejecución del código en general no lance errores es importate ejecutar la primera celda de código: **1. Librerías**
+Para que la ejecución del código en general no lance errores es importante ejecutar la sección: **1. Librerías**
 ![](https://drive.google.com/uc?export=view&id=1PP49lqkMvNFefadTXcLI-r27HL-nV67n)
 
 ## Cargue la imagen contenido y la imagen estilo
-**Importante**. Para cargar la imagen contenido y la imagen estilo es necesario ejecutar primero las celdas de código **2.1 Funciones necesarias** dentro de la sección **2. Imagen contenido e imagen estilo**.
+**Importante**. Para cargar la imagen contenido y la imagen estilo es necesario ejecutar primero la sección **2.1 Funciones necesarias**.
 
 ### Cargue imágenes predeterminadas
-Ejecute las celdas dentro de **2.2 Cargar imágenes predeterminadas** y espere a que termine cada una su ejecución. Al final se mostrarán las siguintes imágenes:
+Ejecute la sección **2.2 Cargar imágenes predeterminadas** y espere a que termine su ejecución. Al final se mostrarán las siguientes imágenes:
 ![](https://drive.google.com/uc?export=view&id=1EZBIiee1tXQY8HqTBP5Grdi2uB8Xda1W)
 
 ### Cargue imágenes propias
