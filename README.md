@@ -14,8 +14,8 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
 # Tabla de contenido
 
 - [Teoría detrás de la transferencia de estilo](#teoría-detrás-de-la-transferencia-de-estilo)
-- [Preparaciones iniciales](#-Preparaciones-iniciales)
-  * [Abrir el código en un IDE](##-Abrir-el-código-en-un-IDE)
+- [Preparaciones iniciales](#Preparaciones-iniciales)
+  * [Abrir el código en un IDE](##Abrir-el-código-en-un-IDE)
   * [Cargar las librerías necesarias]()
   * [Cargar imagen contenido e imagen estilo]()
 - [Primer método de transferencia de estilo: terminar de entrenar una red neuronal](#requerimientos-del-sistema)
