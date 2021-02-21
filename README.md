@@ -1,15 +1,11 @@
 # Transferencia de estilo
 En este proyecto podrás encontrar el código en Python **Vision_17_StyleTransfer**, el cual tiene como objetivo fusionar el contenido de una imagen con el estilo de otra.
 
-| ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV) | 
-|:--:| 
-| *Imagen 1: Transferencia de estilo* |
+![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV)
 
-En el código se podrá encontrar dos métodos para la transferencia de estilo: 
-1. Construir una nueva red neuronal a partir de una red neuronal pre-entrenada.
+En el código podrá encontrar dos métodos para la transferencia de estilo: 
+1. Construir una nueva red neuronal a partir de una ya pre-entrenada.
 2. Utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
-
-**Importante.** Para los ejemplos visuales se utilizará el ambiente de **Google Colab**. 
 
 # Tabla de contenido
 
