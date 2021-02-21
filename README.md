@@ -51,7 +51,6 @@ Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros forma
 # Obtenga el proyecto
 
 ## Descargue el proyecto para ejecución local
-GitHub nos permite descargar el proyecto completo como un ZIP o clonarlo dentro de nuestra computadora.
 
 ### Descargue como ZIP
 1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
@@ -67,21 +66,20 @@ GitHub nos permite descargar el proyecto completo como un ZIP o clonarlo dentro 
 
 ![](https://drive.google.com/uc?export=view&id=1u-uwSE7G1vvK8hWeXB8O7q-uAO9lrcYg)
 
-5. Abre una consola de comando de tu computadora.
-6. Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el repositorio.
-7. Escribe 'git clone' y pega la URL que copio anteriormente.
+4. Abre una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
+5. Escriba 'git clone' y pega la URL que copio anteriormente.
 
 ![](https://drive.google.com/uc?export=view&id=1JjlCfzNT--Av7xJQwTN6ZmSuHWivArSi)
 
-9. Da **Enter** para comenzar a crear el clon del repositorio.
+6. Da **Enter** para comenzar a crear el clon del repositorio.
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
 
 ## Copie el proyecto directamente a Google Colab para ejecución en la nube
-Para poder completar los siguientes pasos será necesario que posea una cuenta de Google.
+**Importante**. Es necesario que posea una cuenta de Google.
 
 1. Visita la página principal de [Google Colab](https://colab.research.google.com/)
-2. Inicia sesión con su cuenta de Google, si ya tiene abierta alguna no será necesario este paso.
+2. Inicia sesión con su cuenta de Google.
 3. Da clic en la pestaña **GitHub**.
 4. Escriba el URL del repositorio. Para conseguir el URL realice los pasos 1, 2 y 3 de la sección [Clona el repositorio desde línea de comando](#Clona-el-repositorio-desde-línea-de-comando)
 5. Da **Enter** o clic en <img align="float" width="15" height="15" src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png"> para buscar el repositorio.
@@ -89,9 +87,12 @@ Para poder completar los siguientes pasos será necesario que posea una cuenta d
 
 ![](https://drive.google.com/uc?export=view&id=1qYRuMZAU2hzN-q42NX-nKoM4JxOBu4U4)
 
-Hasta este punto podrá ejecutar el código sin complicaciones, sin embargo, no podrá realizar ningún cambio. Para poder modificar el código será necesario guardar una copia en su *Drive* si desea ejecutarlo desde Colab o descargarlo a su computadora, para ejecutarlo de forma local. Por ello, realice los siguientes pasos.
+Si desea modificar el código será necesario guardar una copia en su Drive. Por ello, realice los siguientes pasos:
+
 1. Da clic en **Archivo**
-2. Da clic en **Guardar una copia en Drive** o **Descargar .ipynb** o **Descarga .py** según sea el caso que dessee.
+2. Da clic en **Guardar una copia en Drive** 
+
+También podrá descargar el código para su ejecución local dando clic en **Descargar .ipynb** o **Descarga .py**.
 
 ![](https://drive.google.com/uc?export=view&id=18gvCLVFUC__iCyH0bU_v4-tJl6wUt8TQ)
 
