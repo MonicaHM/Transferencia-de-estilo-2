@@ -5,11 +5,9 @@ En este proyecto podrás encontrar el código en python **Vision_17_StyleTransfe
 |:--:| 
 | *Imagen 1: Transferencia de estilo* |
 
-Un ejemplo de lo que se quiere lograr lo podemos encontrar en aplicación para Android [Lucid](https://play.google.com/store/apps/details?id=com.doodle.doodle)
-
-En el código del proyectyo se podrá encontrar dos formas de obtener la transferencia de estilo: 
- + El primer método es construir una nueva red neuronal a partir de una red neuronal pre-entrenada.
- + El segundo método es utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
+En el código de este proyectyo se podrá encontrar dos formas de obtener la transferencia de estilo: 
+1. El primer método es construir una nueva red neuronal a partir de una red neuronal pre-entrenada.
+2. El segundo método es utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
 
 **Importante.** En esta guia de ususario se utilizará el ambiente de **Google Colab** para los ejemplos visuales. 
 
@@ -130,7 +128,11 @@ style_image = load_img('SustituyaNombreImgEstilo.SuExtención')
 
 
 # Realice la transferencia de estilo con el primer método.
-**Importante**. Para poder obtener resultados es necesario primero ejecutar las celdas de código dentro de la sección **3. Primer método**.
+**Importante**. Para poder obtener resultados es necesario:
++ Haber importado las librerias.
++ Haber cargado la imagen contenido e imagen estilo.
++ Haber ejecutado las celdas de código dentro de las seccion **3. Primer método**.
+
 La función `train_step(image)` pasa la imágen de entrada una vez a través de la red neuronal.
 La función `tensor_to_image(image)` nos ayuda a imprimir el tensor que contiene la imágen resultante.
 
@@ -155,6 +157,13 @@ Significa que la imagen de contenido fue procesada por 10 épocas y cada época 
 
 
 # Realice la transferencia de estilo con el segundo método
+**Importante**. Para poder obtener resultados es necesario:
++ Haber importado las librerias.
++ Haber cargado la imagen contenido e imagen estilo.
+
+Para este segundo método se carga un red neuronal del repositorio de TensorFlow Hub, por ello no se puede modificar la red neuronal. Para obtener la imagen resultante solo es necesario ejecutar la celda de la sección **5. Segundo método: TensorFlow Hub** y esperar a que finalice.
+
+![](https://drive.google.com/uc?export=view&id=1tJhTGE_kdDa0ssRY0J9BHrJF22F7UImy)
 
 
 
