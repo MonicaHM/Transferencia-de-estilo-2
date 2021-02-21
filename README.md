@@ -14,9 +14,9 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
 # Tabla de contenido
 
 - [Teoría detrás de la transferencia de estilo](#teoría-detrás-de-la-transferencia-de-estilo)
+- [Descargar código](#Descargar-código)
+- [Abrir el código en un IDE](#Abrir-el-código-en-un-IDE)
 - [Preparaciones iniciales](#Preparaciones-iniciales)
-  * [Abrir el código en un IDE](#Abrir-el-código-en-un-IDE)
-    + [Descargar código](#Descargar-código)
   * [Cargar las librerías necesarias]()
   * [Cargar imagen contenido e imagen estilo]()
 - [Primer método de transferencia de estilo: terminar de entrenar una red neuronal](#requerimientos-del-sistema)
@@ -41,11 +41,7 @@ En general, se dice que las capas ocultas se van especializando conforme se van 
 
 Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros formados en las capas ocultas que se encuentran a partir del nivel medio contienen el estilo de la imagen. Por lo tanto, la salida de la red neuronal para la transferencia de estilo, no será la capa de salida sino la capa oculta seleccionada como extractor de estilo.
 
-# Preparaciones iniciales
-
-## Abrir el código en un IDE
-
-### Descargar código
+# Descargar código
 GitHub nos permite descargar el proyecto completo como un ZIP o clonarlo dentro de nuestra computadora.
 
 **Descargar proyecto como ZIP:**
@@ -61,6 +57,9 @@ GitHub nos permite descargar el proyecto completo como un ZIP o clonarlo dentro 
 5. Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el repositorio.
 6. Escribe 'git clone' y pega la URL que copio anteriormente.
 7. Da **Enter** para terminal de crear el clon del repositorio.
+
+
+
 
 
 
