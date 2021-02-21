@@ -1,15 +1,15 @@
 # Transferencia de estilo
-En este proyecto podrás encontrar el código en python **Vision_17_StyleTransfer**, el cual tiene como objetivo fusionar el contenido de una imagen con el estilo de otra (Imagen 1).
+En este proyecto podrás encontrar el código en Python **Vision_17_StyleTransfer**, el cual tiene como objetivo fusionar el contenido de una imagen con el estilo de otra (Imagen 1).
 
 | ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV) | 
 |:--:| 
 | *Imagen 1: Transferencia de estilo* |
 
-En el código de este proyecto se podrá encontrar dos formas de obtener la transferencia de estilo: 
-1. El primer método es construir una nueva red neuronal a partir de una red neuronal pre-entrenada.
-2. El segundo método es utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
+En el código se podrá encontrar dos métodos para la transferencia de estilo: 
+1. Construir una nueva red neuronal a partir de una red neuronal pre-entrenada.
+2. Utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
 
-**Importante.** En esta guía de usuario se utilizará el ambiente de **Google Colab** para los ejemplos visuales. 
+**Importante.** Para los ejemplos visuales se utilizará el ambiente de **Google Colab**. 
 
 # Tabla de contenido
 
@@ -30,23 +30,18 @@ En el código de este proyecto se podrá encontrar dos formas de obtener la tran
 - [Realice la transferencia de estilo con el segundo método](#Realice-la-transferencia-de-estilo-con-el-segundo-método)
 
 # Conozca la teoría detrás del proyecto
-Las redes neuronales convolucionales (CNN) son redes neuronales de aprendizaje supervisado que realizan su funcionamiento a través de capas. Estas capas están divididas en: 
+Las redes neuronales convolucionales utilizan el aprendizaje supervisado para realizar su funcionamiento a través de capas. Estas capas se dividen en: 
 1. Capa de entrada. Recibe los datos de entrada.
-2. Capa oculta. Donde se realiza el procesamiento de los datos.
+2. Capa oculta. Realiza el procesamiento de los datos.
 3. Capa de salida. Proporciona la respuesta de la red neuronal.
 
-Dentro de las capas intermedias existe una jerarquía (Imagen 2):
-- Las capas ocultas de nivel bajo detectan bordes.
-- Las capas ocultas de nivel medio detectan esquinas y contornos.
-- Las capas ocultas de nivel alto detectan partes de objetos o formas complejas. 
-
-En general, las capas ocultas se van especializando conforme se van acercando a la capa de salida.
+Dentro de las capas ocultas existe una jerarquía:
 
 | ![](https://drive.google.com/uc?export=view&id=1yfGqdGSRmyYIKh6vl40_i2XfYp16T5bI) | 
 |:--:| 
-| *Imagen 2: Jerarquía de capas ocultas (filtros)* |
+| *Imagen 2: Jerarquía de capas ocultas* |
 
-Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros formados en las capas ocultas que se encuentran a partir del nivel medio contienen el estilo de la imagen. Por lo tanto, la salida de la red neuronal para la transferencia de estilo, no será la capa de salida sino la capa oculta seleccionada como extractor de estilo.
+En general, las capas ocultas se van especializando conforme se van acercando a la capa de salida. Tomando en cuenta la jerarquía anterior, se ha demostrado que en las capas ocultas que se encuentran a partir del nivel medio se encargan de detectar del estilo de la imagen. Por lo tanto, la salida de la red neuronal para la transferencia de estilo, no será la capa de salida sino la capa oculta seleccionada como el extractor de estilo.
 
 # Obtenga el proyecto
 
