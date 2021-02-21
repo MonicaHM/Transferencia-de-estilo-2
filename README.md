@@ -13,22 +13,20 @@ En este código se podrá encontrar dos formas de obtener la transferencia de es
 
 # Tabla de contenido
 
-- [Teoría detrás de la transferencia de estilo](#teoría-detrás-de-la-transferencia-de-estilo)
-- [Obten el proyecto](#Obten-el-proyecto)
-  * [Descarga el proyecto para ejecución local](#Descarga-el-proyecto-para-ejecución-local)
-    + [Descarga como ZIP](#Descarga-como-ZIP)
-    + [Clona el repositorio desde línea de comando](#Clona-el-repositorio-desde-línea-de-comando)
-  * [Copia el proyecto directamente a Google Colab](#Copia-el-proyecto-directamente-a-Google-Colab)
+- [Conozca la teoría detrás del proyecto](#Conozca-la-teoría-detrás-del-proyecto)
+- [Obtenga el proyecto](#Obtenga-el-proyecto)
+  * [Descargue el proyecto para ejecución local](#Descargue-el-proyecto-para-ejecución-local)
+    + [Descargue como ZIP](#Descargue-como-ZIP)
+    + [Clone el repositorio desde línea de comando](#Clone-el-repositorio-desde-línea-de-comando)
+  * [Copie el proyecto directamente a Google Colab para ejecución en la nube](#Copie-el-proyecto-directamente-a-Google-Colab-para-ejecución-en-la-nube)
+- [Ejecute las celdas escenciales del proyecto](#Ejecute-las-celdas-escenciales-del-proyecto)
+  * [Cargue las librerías necesarias](#Cargue-las-librerías-necesarias)
+  * [Cabie la imagen contenido y la imagen estilo](#Cabie-la-imagen-contenido-y-la-imagen-estilo)
 
-
-- [Abre el código en un IDE](#Abre-el-código-en-un-IDE)
-- [Realiza las precionaciones iniciales](#Preparaciones-iniciales)
-  * [Carga las librerías necesarias]()
-  * [Carga imagen contenido e imagen estilo]()
 - [Primer método de transferencia de estilo: terminar de entrenar una red neuronal](#requerimientos-del-sistema)
 - [Segundo método de transferencia de estilo: red neuronal de TensorFlow Hub](#requerimientos-del-sistema)
 
-# Teoría detrás de la transferencia de estilo
+# Conozca la teoría detrás del proyecto
 Las redes neuronales convolucionales (CNN) son redes neuronales de aprendizaje supervisado que realiza su funcionamiento a través de diversas capas. Estas capas están divididas en: 
 1. Capa de entrada. Recibe los datos de entrada.
 2. Capa oculta. Donde se realiza el procesamiento de los datos.
@@ -47,19 +45,19 @@ En general, se dice que las capas ocultas se van especializando conforme se van 
 
 Tomando en cuenta la jerarquía anterior, se ha demostrado que los filtros formados en las capas ocultas que se encuentran a partir del nivel medio contienen el estilo de la imagen. Por lo tanto, la salida de la red neuronal para la transferencia de estilo, no será la capa de salida sino la capa oculta seleccionada como extractor de estilo.
 
-# Obten el proyecto
+# Obtenga el proyecto
 
-## Descarga el proyecto para ejecución local
+## Descargue el proyecto para ejecución local
 GitHub nos permite descargar el proyecto completo como un ZIP o clonarlo dentro de nuestra computadora.
 
-### Descarga como ZIP
+### Descargue como ZIP
 1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
 2. Da clic en el botón **Code**
 3. Da clic en **Download ZIP**
 
 ![](https://drive.google.com/uc?export=view&id=1USlcekIzozaNN5SWAZamfl0BtCSOSH4g)
 
-### Clona el repositorio desde línea de comando
+### Clone el repositorio desde línea de comando
 1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
 2. Da clic en el botón **Code**
 3. Da clic en <img align="float" width="17" height="18" src="https://drive.google.com/uc?export=view&id=1P7XHP3GbYB7UqeBTONCZb_AppmsHbm9J"> de la sección **HTTPS** para copiar la URL del repositorio.
@@ -76,7 +74,30 @@ GitHub nos permite descargar el proyecto completo como un ZIP o clonarlo dentro 
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
 
-## Copia el proyecto directamente a Google Colab
+## Copie el proyecto directamente a Google Colab para ejecución en la nube
+Para poder completar los siguientes pasos será necesario que posea una cuenta de Google.
+
+1. Visita la página principal de [Google Colab](https://colab.research.google.com/)
+2. Inicia sesión con su cuenta de Google, si ya tiene abierta alguna no será necesario este paso.
+3. Da clic en la pestaña **GitHub**.
+4. Escriba el URL del repositorio. Para conseguir el URL realice los pasos 1, 2 y 3 de la sección [Clona el repositorio desde línea de comando](#Clona-el-repositorio-desde-línea-de-comando)
+5. Da **Enter** o clic en <img align="float" width="15" height="15" src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png"> para buscar el repositorio.
+6. Da clic en el nombre del archivo de python **Vision_17_StyleTransfer.ipynb**.
+
+![](https://drive.google.com/uc?export=view&id=1qYRuMZAU2hzN-q42NX-nKoM4JxOBu4U4)
+
+Hasta este punto podrá ejecutar el código sin complicaciones, sin embargo, no podrá realizar ningún cambio. Para poder modificar el código será necesario guardar una copia en su *Drive* si desea ejecutarlo desde Colab o descargarlo a su computadora, para ejecutarlo de forma local. Por ello, realice los siguientes pasos.
+1. Da clic en **Archivo**
+2. Da clic en **Guardar una copia en Drive** o **Descargar .ipynb** o **Descarga .py** según sea el caso que dessee.
+
+![](https://drive.google.com/uc?export=view&id=18gvCLVFUC__iCyH0bU_v4-tJl6wUt8TQ)
+
+# Ejecute las celdas escenciales del proyecto
+## Cargue las librerías necesarias
+
+
+## Cabie la imagen contenido y la imagen estilo
+
 
 
 
