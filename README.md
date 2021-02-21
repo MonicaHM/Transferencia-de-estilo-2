@@ -1,5 +1,5 @@
 # Transferencia de estilo
-En este mini proyecto podrás encontrar el código en python **Vision_17_StyleTransfer.ipynb**, el cual tiene como objetivo aplicar el estilo de una imagen a otra, es decir, se busca fusionar el contenido de una imagen con el estilo de otra. 
+En este mini proyecto podrás encontrar el código en python **Vision_17_StyleTransfer**, el cual tiene como objetivo aplicar el estilo de una imagen a otra, es decir, se busca fusionar el contenido de una imagen con el estilo de otra. 
 
 ![](img1.png)
 
