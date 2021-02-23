@@ -7,7 +7,7 @@ Podrás encontrar dos métodos para la transferencia de estilo:
 1. Construir una nueva red neuronal a partir de una ya pre-entrenada.
 2. Utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
 
-# Tabla de contenid
+# Tabla de contenido
 
 - [Conozca la teoría detrás del proyecto](#Conozca-la-teoría-detrás-del-proyecto)
 - [Obtenga el proyecto](#Obtenga-el-proyecto)
