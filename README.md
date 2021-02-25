@@ -23,7 +23,7 @@ Podrás encontrar dos métodos para la transferencia de estilo:
 - [Realice la transferencia de estilo con una red neuronal de resultados modificables](#Realice-la-transferencia-de-estilo-con-una-red-neuronal-de-resultados-modificables)
   * [Obtenga resultados por pasos](#Obtenga-resultados-por-pasos)
   * [Obtenga resultados por épocas](#Obtenga-resultados-por-épocas)
-- [Realice la transferencia de estilo con una red predeterminada TensorFlow Hub](## Realice-la-transferencia-de-estilo-con-una-red-predeterminada-de-TensorFlow-Hub)
+- [Realice la transferencia de estilo con una red predeterminada TensorFlow Hub](#Realice-la-transferencia-de-estilo-con-una-red-predeterminada-de-TensorFlow-Hub)
 
 # Conozca la teoría detrás del proyecto
 Las redes neuronales convolucionales utilizan el aprendizaje supervisado para realizar su funcionamiento a través de capas. Estas capas se dividen en: capa de entrada, capa oculta y capa de salida. Dentro de las capas ocultas existe una jerarquía:
