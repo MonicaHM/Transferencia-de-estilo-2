@@ -1,5 +1,5 @@
 # Transferencia de estilo
-Este proyecto tiene como objetivo presentar una red neural que realiza 1a transferencia de estilo. La transferencia de estilo se logra a partir de dos imágenes: una para el contenido o forma y otra para el estilo o color, creando así, una nueva imagen, tal y como se muestra a continuación:
+Este proyecto tiene como objetivo presentar una red neural que realiza la transferencia de estilo. La transferencia de estilo se logra a partir de dos imágenes: una para el contenido o forma y otra para el estilo o color, creando así, una nueva imagen, tal y como se muestra a continuación:
 
 ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV)
 
