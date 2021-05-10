@@ -26,7 +26,7 @@ Dentro de este proyecto podrás encontrar dos métodos para la transferencia de 
 - [Realice la transferencia de estilo con una red predeterminada de TensorFlow Hub](#realice-la-transferencia-de-estilo-con-una-red-predeterminada-de-tensorflow-hub)
 
 # Conozca la teoría detrás del proyecto
-Las redes neuronales convolucionales utilizan el aprendizaje supervisado para el entrenamiento de sus capas. Estas capas se dividen en: capa de entrada, capa oculta y capa de salida. Dentro de las capas ocultas existe la siguiente jerarquía:
+Las redes neuronales convolucionales utilizan el aprendizaje supervisado para el entrenamiento de sus capas. Estas capas se dividen en capa de entrada, capa oculta y capa de salida. Dentro de las capas ocultas existe la siguiente jerarquía:
 
 ![](https://drive.google.com/uc?export=view&id=1yfGqdGSRmyYIKh6vl40_i2XfYp16T5bI)
 
