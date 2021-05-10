@@ -30,7 +30,7 @@ Las redes neuronales convolucionales utilizan el aprendizaje supervisado para el
 
 ![](https://drive.google.com/uc?export=view&id=1yfGqdGSRmyYIKh6vl40_i2XfYp16T5bI)
 
-Tomando en cuenta la jerarquía mostrada en la imagen, se ha demostrado que, las capas ocultas que se encuentran a partir del nivel medio se encargan de detectar el estilo de la imagen. Por lo tanto, si se requiere realizar la transferencia de estilo será necesario seleccionar una capa oculta de nivel medio, para que así, sea posible utilizarla como un extractor de estilo.
+Tomando en cuenta la jerarquía presentada en la imagen, se ha demostrado que, las capas ocultas que se encuentran a partir del nivel medio se encargan de detectar el estilo de la imagen. Por lo tanto, si se requiere realizar la transferencia de estilo será necesario seleccionar una capa oculta de nivel medio, para que así, sea posible utilizarla como un extractor de estilo.
 
 # Obtenga el proyecto
 
