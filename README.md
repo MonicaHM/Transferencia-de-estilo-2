@@ -99,7 +99,7 @@ Las imágenes predeterminadas se encuentran dentro de las sección **2.2 Cargar 
 
 ![](https://drive.google.com/uc?export=view&id=1XhUXpYI7R7wzMWS5kDK47LmMC6PaaO9-)
 
-3. Sustituya dentro de la función `load_img`, de la variable `content_image` y/o `style_image`, el nombre y extensión de la imagen que desea utilizar. Estas líneas de código las puede encontrar dentro de la sección **2.3 Cargar imágenes propias**.
+3. Sustituya dentro de la función `load_img`, de las variables `content_image` y `style_image`, el nombre y extensión de la imagen que desea utilizar. Estas líneas de código las puede encontrar dentro de la sección **2.3 Cargar imágenes propias**.
 
 ```python
 content_image = load_img('ImgContenido.SuExtención')
