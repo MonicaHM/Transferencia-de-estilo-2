@@ -1,9 +1,9 @@
 # Transferencia de estilo
-Este proyecto tiene como objetivo fusionar el contenido de una imagen con el estilo de otra.
+Este proyecto tiene como objetivo presentar una red neural que realiza 1a transferencia de estilo. La transferencia de estilo se logra a partir de dos imágenes: una para el contenido o forma y otra para el estilo o color, creando así, una nueva imagen, tal y como se muestra a continuación:
 
 ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV)
 
-Podrás encontrar dos métodos para la transferencia de estilo: 
+Dentro de este proyecto podrás encontrar dos métodos para la transferencia de estilo: 
 1. Construir una nueva red neuronal a partir de una ya pre-entrenada.
 2. Utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
 
@@ -26,7 +26,7 @@ Podrás encontrar dos métodos para la transferencia de estilo:
 - [Realice la transferencia de estilo con una red predeterminada de TensorFlow Hub](#realice-la-transferencia-de-estilo-con-una-red-predeterminada-de-tensorflow-hub)
 
 # Conozca la teoría detrás del proyecto
-Las redes neuronales convolucionales utilizan el aprendizaje supervisado para el entrenamiento de sus capas. Estas capas se dividen en: capa de entrada, capa oculta y capa de salida. Dentro de las capas ocultas existe la siguiente jerarquía:
+Las redes neuronales convolucionales utilizan el aprendizaje supervisado para el entrenamiento de sus capas. Estas capas se dividen en: capa de entrada, capa oculta y capa de salida. Dentro de las capas ocultas existe una jerarquía:
 
 ![](https://drive.google.com/uc?export=view&id=1yfGqdGSRmyYIKh6vl40_i2XfYp16T5bI)
 
