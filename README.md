@@ -32,7 +32,7 @@ Tomando en cuenta la jerarquía anterior, se ha demostrado que, las capas oculta
 GitHub permite la obtención del proyecto tanto para su ejecución local como en la nube. A continuación, se mostrarán los pasos a seguir para cada opción.
 
 ### Descargue el proyecto para ejecución local
-Si desea ejecutar el proyecto con algún editor de Python tal como [Spyder](https://www.spyder-ide.org) o [Jupyter](https://jupyter.org) será necesario descargar el proyecto ya sea como ZIP o, clonándolo desde la consola.
+Si desea ejecutar el proyecto con algún editor de Python tal como [Spyder](https://www.spyder-ide.org) o [Jupyter](https://jupyter.org) será necesario descargar el proyecto, ya sea como ZIP o clonándolo desde la consola.
 
 #### Descargue como ZIP
 Para obtener el archivo ZIP siga los siguientes pasos.
@@ -48,11 +48,11 @@ Para clonar el repositorio desde la consola de comandos de Windows siga los sigu
 
 1. Copie el [URL](https://github.com/MonicaHM/Transferencia-de-estilo.git) del repositorio.
 2. Abra una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
-3. Escriba `git clone` y pega la URL que copio anteriormente.
+3. Escriba `git clone` y pegue la URL que copio anteriormente.
 
 ![](https://drive.google.com/uc?export=view&id=1JjlCfzNT--Av7xJQwTN6ZmSuHWivArSi)
 
-4. Dé **Enter** y espera a que termine de clonarse el repositorio.
+4. Dé **Enter** y espere a que termine de clonarse el repositorio.
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
 
@@ -89,18 +89,21 @@ Las librerías se encuentran dentro de la sección **1.Librerías**, es indispen
 ![](https://drive.google.com/uc?export=view&id=1PP49lqkMvNFefadTXcLI-r27HL-nV67n)
 
 ## Cargue la imagen contenido y la imagen estilo
-**Importante**. Ejecute primero las secciones **1. Librerías** y **2.1 Funciones necesarias**.
+Para realizar la transferencia de estilo es necesario tener una imagen contenido y una imagen estilo. Por ello, se ofrece la opción de utilizar las imágenes ejemplo de la base de datos de Tensor Flow, sin embargo, también se tiene la opción de utilizar las imágenes de su preferencia. A continuación, se mostrarán los pasos a seguir para cada alternativa. 
 
-### Cargue imágenes predeterminadas
+**Importante**. Para evitar errores ejecute primero las secciones **1. Librerías** y **2.1 Funciones necesarias**.
+
+#### Cargue imágenes predeterminadas
 
 Las imágenes predeterminadas se encuentran dentro de las sección **2.2 Cargar imágenes predeterminadas**. Al ejecutar esta sección se mostrarán las siguientes imágenes:
 
 ![](https://drive.google.com/uc?export=view&id=1EZBIiee1tXQY8HqTBP5Grdi2uB8Xda1W)
 
-### Cargue imágenes propias
+#### Cargue imágenes propias
+**Importante**. Si desea utilizar imágenes de su preferencia será necesario tenerlas guardadas con anterioridad dentro de su ordenador.
 
-1. Da clic en <img align="float" width="15" height="15" src="https://img.icons8.com/metro/452/folder-invoices.png"> de la barra lateral.
-2. Arrastra desde su **Explorador de archivo** las imágenes que desea utilizar como imagen contenido e imagen estilo.
+1. Dé clic en <img align="float" width="15" height="15" src="https://img.icons8.com/metro/452/folder-invoices.png"> de la barra lateral.
+2. Arrastre desde su **Explorador de archivo** las imágenes que desea utilizar como imagen contenido e imagen estilo.
 
 ![](https://drive.google.com/uc?export=view&id=1XhUXpYI7R7wzMWS5kDK47LmMC6PaaO9-)
 
