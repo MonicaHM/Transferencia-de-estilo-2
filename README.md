@@ -56,9 +56,6 @@ Para clonar el repositorio desde la consola de comandos de Windows siga los sigu
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
 
-
-
-
 ### Copie el proyecto a Google Colab para su ejecución en la nube
 **Importante**. Para poder utilizar esta opción es necesario que posea una cuenta de Google.
 
@@ -144,11 +141,11 @@ Significa que la imagen contenido fue procesada durante 10 épocas y cada época
 
 
 # Realice la transferencia de estilo con una red predeterminada de TensorFlow Hub
-**Importante**. Es necesario mportar las librerías y, cargar la imagen contenido e imagen estilo.
+**Importante**. Es necesario importar las librerías y cargar la imagen contenido e imagen estilo.
 
-Para este segundo método se carga una red neuronal del repositorio de TensorFlow Hub. Para obtener la imagen procesada solo es necesario ejecutar la sección **5. Segundo método: TensorFlow Hub**.
+Para este segundo método se utiliza una red neuronal del repositorio de TensorFlow Hub. Para obtener la imagen procesada solo es necesario ejecutar la sección **5. Segundo método: TensorFlow Hub**.
 
-**Nota**. No es posible modificar ningún parámetro de la red neuronal, únicamente se puede obtener la imagen resultante.
+Se debe tener en cuenta que para este método de transferencia de estilo es imposible modificar algún parámetro dentro de la red neuronal, únicamente se puede obtener la imagen resultante.
 
 ![](https://drive.google.com/uc?export=view&id=1tJhTGE_kdDa0ssRY0J9BHrJF22F7UImy)
 
