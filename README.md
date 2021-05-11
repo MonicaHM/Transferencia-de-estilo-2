@@ -43,7 +43,6 @@ Para obtener el archivo ZIP siga los siguientes pasos.
 
 ![](https://drive.google.com/uc?export=view&id=1USlcekIzozaNN5SWAZamfl0BtCSOSH4g)
 
-
 #### Clone el repositorio desde línea de comando (vía HTTPS)
 Para clonar el repositorio desde la consola de comandos de Windows siga los siguientes pasos.
 
@@ -56,6 +55,7 @@ Para clonar el repositorio desde la consola de comandos de Windows siga los sigu
 4. De **Enter** y espera a que termine de clonarse el repositorio.
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
+
 
 ### Copie el proyecto a Google Colab
 **Importante**. Es necesario que posea una cuenta de Google.
