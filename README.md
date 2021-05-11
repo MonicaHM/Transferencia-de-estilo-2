@@ -3,7 +3,7 @@ Este proyecto permite fusionar el contenido de una imagen con el estilo de otra.
 
 ![](https://drive.google.com/uc?export=view&id=1MtFF2GyrCyy4ipTP3jGCY4qUGFBtsASV)
 
-Dentro de este proyecto podrás encontrar dos métodos para la transferencia de estilo: 
+Dentro del código podrás encontrar dos métodos para la transferencia de estilo: 
 1. Construir una nueva red neuronal a partir de una ya pre-entrenada.
 2. Utilizar una red neuronal entrenada del repositorio TensorFlow Hub.
 
@@ -11,8 +11,8 @@ Dentro de este proyecto podrás encontrar dos métodos para la transferencia de 
 
 - [Conozca la teoría detrás del proyecto](#Conozca-la-teoría-detrás-del-proyecto)
 - [Obtenga el proyecto](#Obtenga-el-proyecto)
-  * [Descargue el proyecto](#Descargue-el-proyecto)
-  * [Copie el proyecto a Google Colab](#Copie-el-proyecto-a-Google-Colab)
+  * [Descargue el proyecto para ejecución local](#Descargue-el-proyecto-para-su-ejecución-local)
+  * [Copie el proyecto a Google Colab para su ejecución en la nube](#Copie-el-proyecto-a-Google-Colab-para-su-ejecución-en-la-nube)
 - [Realice los pasos esenciales](#Realice-los-pasos-esenciales)
   * [Cargue las librerías](#Cargue-las-librerías)
   * [Cargue la imagen contenido y la imagen estilo](#Cargue-la-imagen-contenido-y-la-imagen-estilo)
