@@ -47,14 +47,16 @@ Para obtener el archivo ZIP siga los siguientes pasos.
 Para clonar el repositorio desde la consola de comandos de Windows siga los siguientes pasos.
 
 1. Copie el [URL](https://github.com/MonicaHM/Transferencia-de-estilo.git) del repositorio.
-2. Abre una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
-3. Escribe `git clone` y pega la URL que copio anteriormente.
+2. Abra una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
+3. Escriba `git clone` y pega la URL que copio anteriormente.
 
 ![](https://drive.google.com/uc?export=view&id=1JjlCfzNT--Av7xJQwTN6ZmSuHWivArSi)
 
-4. De **Enter** y espera a que termine de clonarse el repositorio.
+4. Dé **Enter** y espera a que termine de clonarse el repositorio.
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
+
+
 
 
 ### Copie el proyecto a Google Colab
