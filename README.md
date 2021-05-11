@@ -107,7 +107,7 @@ Las imágenes predeterminadas se encuentran dentro de las sección **2.2 Cargar 
 
 ![](https://drive.google.com/uc?export=view&id=1XhUXpYI7R7wzMWS5kDK47LmMC6PaaO9-)
 
-3. Sustituya dentro de la función `load_img`, de las variables `content_image` y `style_image`, el nombre y extensión de la imagen que desea utilizar. Estas líneas de código las puede encontrar dentro de la sección **2.3 Cargar imágenes propias**.
+3. Sustituye dentro de la función `load_img`, de las variables `content_image` y `style_image`, el nombre y extensión de la imagen que desea utilizar. Estas líneas de código las puede encontrar dentro de la sección **2.3 Cargar imágenes propias**.
 
 ```python
 content_image = load_img('ImgContenido.SuExtención')
@@ -120,12 +120,7 @@ style_image = load_img('ImgEstilo.SuExtención')
 
 
 # Realice la transferencia de estilo con una red neuronal de resultados modificables
-**Importante**. Es necesario:
-+ Importar las librerías.
-+ Cargar imagen contenido e imagen estilo.
-+ Ejecutar la sección **3. Primer método**.
-
-**Nota**. La función `train_step(image)` procesa la imagen de contenido solo una vez a través de la red neuronal.
+**Importante**. Es necesario importar las librerías, cargar imagen contenido e imagen estilo y, ejecutar la sección **3. Primer método**.
 
 ## Obtenga resultados por pasos
 La sección **4.1 Transferencia de estilos por pasos** nos da una imagen procesada con el número de pasos que nosotros programemos. Por ejemplo el código:
@@ -149,9 +144,7 @@ Significa que la imagen contenido fue procesada durante 10 épocas y cada época
 
 
 # Realice la transferencia de estilo con una red predeterminada de TensorFlow Hub
-**Importante**. Es necesario:
-+ Importar las librerías.
-+ Cargar imagen contenido e imagen estilo.
+**Importante**. Es necesario mportar las librerías y, cargar la imagen contenido e imagen estilo.
 
 Para este segundo método se carga una red neuronal del repositorio de TensorFlow Hub. Para obtener la imagen procesada solo es necesario ejecutar la sección **5. Segundo método: TensorFlow Hub**.
 
