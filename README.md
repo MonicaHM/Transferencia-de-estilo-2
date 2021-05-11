@@ -43,6 +43,7 @@ Para obtener el archivo ZIP siga los siguientes pasos.
 
 ![](https://drive.google.com/uc?export=view&id=1USlcekIzozaNN5SWAZamfl0BtCSOSH4g)
 
+
 #### Clone el repositorio desde línea de comando (vía HTTPS)
 Para clonar el repositorio desde la consola de comandos de Windows siga los siguientes pasos.
 
