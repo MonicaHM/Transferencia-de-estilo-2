@@ -100,7 +100,7 @@ Las imágenes predeterminadas se encuentran dentro de las sección **2.2 Cargar 
 ![](https://drive.google.com/uc?export=view&id=1EZBIiee1tXQY8HqTBP5Grdi2uB8Xda1W)
 
 ### Cargue imágenes propias
-**Importante**. Si desea utilizar imágenes de su preferencia será necesario tenerlas guardadas con anterioridad dentro de su ordenador.
+**Nota**. Si desea utilizar imágenes de su preferencia será necesario tenerlas guardadas con anterioridad dentro de su ordenador.
 
 1. Dé clic en <img align="float" width="15" height="15" src="https://img.icons8.com/metro/452/folder-invoices.png"> de la barra lateral.
 2. Arrastre desde su **Explorador de archivo** las imágenes que desea utilizar como imagen contenido e imagen estilo.
