@@ -60,7 +60,7 @@ Para clonar el repositorio desde la consola de comandos de Windows siga los sigu
 
 
 ### Copie el proyecto a Google Colab para su ejecución en la nube
-Para poder utilizar esta opción es **importante** que posea una cuenta de Google.
+**Importante**. Para poder utilizar esta opción es necesario que posea una cuenta de Google.
 
 1. Visite la página principal de [Google Colab](https://colab.research.google.com/).
 2. Inicie sesión con su cuenta de Google.
