@@ -11,7 +11,7 @@ Dentro del código podrás encontrar dos métodos para la transferencia de estil
 
 - [Conozca la teoría detrás del proyecto](#Conozca-la-teoría-detrás-del-proyecto)
 - [Obtenga el proyecto](#Obtenga-el-proyecto)
-  * [Descargue el proyecto para ejecución local](#Descargue-el-proyecto-para-su-ejecución-local)
+  * [Descargue el proyecto para se ejecución local](#Descargue-el-proyecto-para-su-ejecución-local)
   * [Copie el proyecto a Google Colab para su ejecución en la nube](#Copie-el-proyecto-a-Google-Colab-para-su-ejecución-en-la-nube)
 - [Realice los pasos esenciales](#Realice-los-pasos-esenciales)
   * [Cargue las librerías](#Cargue-las-librerías)
@@ -31,7 +31,7 @@ Tomando en cuenta la jerarquía anterior, se ha demostrado que, las capas oculta
 # Obtenga el proyecto
 GitHub permite la obtención del proyecto tanto para su ejecución local como en la nube. A continuación, se mostrarán los pasos a seguir para cada opción.
 
-### Descargue el proyecto para ejecución local
+### Descargue el proyecto para su ejecución local
 Si desea ejecutar el proyecto con algún editor de Python tal como [Spyder](https://www.spyder-ide.org) o [Jupyter](https://jupyter.org) será necesario descargar el proyecto, ya sea como ZIP o clonándolo desde la consola.
 
 #### Descargue como ZIP
