@@ -29,26 +29,30 @@ Las redes neuronales convolucionales utilizan el aprendizaje supervisado para el
 Tomando en cuenta la jerarquía anterior, se ha demostrado que, las capas ocultas que se encuentran a partir del nivel medio se encargan de detectar el estilo de la imagen. Por lo tanto, si se requiere realizar la transferencia de estilo será necesario seleccionar una capa oculta de nivel medio, para que así sea utilizada como un extractor de estilo.
 
 # Obtenga el proyecto
-GitHub permite la obtención del proyecto para su ejecución local dentro de algún editor de Python o, en la nube a través de Google Colab. A continuación, se mostrarán los pasos a seguir para cada opción.
+GitHub permite la obtención del proyecto tanto para su ejecución local como en la nube. A continuación, se mostrarán los pasos a seguir para cada opción.
 
-## Descargue el proyecto
+## Descargue el proyecto para ejecución local
 Si desea ejecutar el proyecto con algún editor de Python tal como [Spyder](https://www.spyder-ide.org) o [Jupyter](https://jupyter.org) será necesario descargar el proyecto ya sea como ZIP o, clonándolo desde la consola.
 
 #### Descargue como ZIP
-1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
-2. Da clic en el botón **Code**.
-3. Da clic en **Download ZIP**.
+Para obtener el archivo ZIP siga los siguientes pasos.
+
+1. Visite la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
+2. Dé clic en el botón **Code**.
+3. Dé clic en **Download ZIP**.
 
 ![](https://drive.google.com/uc?export=view&id=1USlcekIzozaNN5SWAZamfl0BtCSOSH4g)
 
-### Clone el repositorio desde línea de comando (vía HTTPS)
-1. Copia el [URL](https://github.com/MonicaHM/Transferencia-de-estilo.git) del repositorio.
-2. Abra una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
-3. Escriba `git clone` y pega la URL que copio anteriormente.
+#### Clone el repositorio desde línea de comando (vía HTTPS)
+Para clonar el repositorio desde la consola de comandos de Windows siga los siguientes pasos.
+
+1. Copie el [URL](https://github.com/MonicaHM/Transferencia-de-estilo.git) del repositorio.
+2. Abre una consola de comando y vaya a la ubicación en donde quiera clonar el repositorio.
+3. Escribe `git clone` y pega la URL que copio anteriormente.
 
 ![](https://drive.google.com/uc?export=view&id=1JjlCfzNT--Av7xJQwTN6ZmSuHWivArSi)
 
-4. Da **Enter** y espera a que termine de clonarse el repositorio.
+4. De **Enter** y espera a que termine de clonarse el repositorio.
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
 
