@@ -12,14 +12,10 @@ Dentro de este proyecto podrás encontrar dos métodos para la transferencia de 
 - [Conozca la teoría detrás del proyecto](#Conozca-la-teoría-detrás-del-proyecto)
 - [Obtenga el proyecto](#Obtenga-el-proyecto)
   * [Descargue el proyecto](#Descargue-el-proyecto)
-    + [Descargue como ZIP](#Descargue-como-ZIP)
-    + [Clone el repositorio desde línea de comando](##clone-el-repositorio-desde-línea-de-comando-vía-https)
   * [Copie el proyecto a Google Colab](#Copie-el-proyecto-a-Google-Colab)
 - [Realice los pasos esenciales](#Realice-los-pasos-esenciales)
   * [Cargue las librerías](#Cargue-las-librerías)
   * [Cargue la imagen contenido y la imagen estilo](#Cargue-la-imagen-contenido-y-la-imagen-estilo)
-    + [Cargue imágenes predeterminadas](#Cargue-imágenes-predeterminadas)
-    + [Cargue imágenes propias](#Cargue-imágenes-propias)
 - [Realice la transferencia de estilo con una red neuronal de resultados modificables](#Realice-la-transferencia-de-estilo-con-una-red-neuronal-de-resultados-modificables)
   * [Obtenga resultados por pasos](#Obtenga-resultados-por-pasos)
   * [Obtenga resultados por épocas](#Obtenga-resultados-por-épocas)
@@ -30,13 +26,15 @@ Las redes neuronales convolucionales utilizan el aprendizaje supervisado para el
 
 ![](https://drive.google.com/uc?export=view&id=1yfGqdGSRmyYIKh6vl40_i2XfYp16T5bI)
 
-Tomando en cuenta la jerarquía presentada en la imagen, se ha demostrado que, las capas ocultas que se encuentran a partir del nivel medio se encargan de detectar el estilo de la imagen. Por lo tanto, si se requiere realizar la transferencia de estilo será necesario seleccionar una capa oculta de nivel medio, para que así, sea posible utilizarla como un extractor de estilo.
+Tomando en cuenta la jerarquía anterior, se ha demostrado que, las capas ocultas que se encuentran a partir del nivel medio se encargan de detectar el estilo de la imagen. Por lo tanto, si se requiere realizar la transferencia de estilo será necesario seleccionar una capa oculta de nivel medio, para que así sea utilizada como un extractor de estilo.
 
 # Obtenga el proyecto
+GitHub permite la obtención del proyecto para su ejecución local dentro de algún editor de Python o, en la nube a través de Google Colab. A continuación, se mostrarán los pasos a seguir para cada opción.
 
 ## Descargue el proyecto
+Si desea ejecutar el proyecto con algún editor de Python tal como [Spyder](https://www.spyder-ide.org) o [Jupyter](https://jupyter.org) será necesario descargar el proyecto ya sea como ZIP o, clonándolo desde la consola.
 
-### Descargue como ZIP
+#### Descargue como ZIP
 1. Visita la página del [repositorio](https://github.com/MonicaHM/Transferencia-de-estilo).
 2. Da clic en el botón **Code**.
 3. Da clic en **Download ZIP**.
