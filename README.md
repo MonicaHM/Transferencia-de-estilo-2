@@ -59,24 +59,24 @@ Para clonar el repositorio desde la consola de comandos de Windows siga los sigu
 
 
 
-### Copie el proyecto a Google Colab
-**Importante**. Es necesario que posea una cuenta de Google.
+### Copie el proyecto a Google Colab para su ejecución en la nube
+Para poder utilizar esta opción es **importante** que posea una cuenta de Google.
 
-1. Visita la página principal de [Google Colab](https://colab.research.google.com/).
-2. Inicia sesión con su cuenta de Google.
-3. Da clic en la pestaña **GitHub**.
-4. Pega el [URL](https://github.com/MonicaHM/Transferencia-de-estilo) del repositorio.
-5. Da **Enter** o clic en <img align="float" width="15" height="15" src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png"> para buscar el repositorio.
-6. Da clic en el nombre del archivo de python **Vision_17_StyleTransfer.ipynb**.
+1. Visite la página principal de [Google Colab](https://colab.research.google.com/).
+2. Inicie sesión con su cuenta de Google.
+3. Dé clic en la pestaña **GitHub**.
+4. Pegue el [URL](https://github.com/MonicaHM/Transferencia-de-estilo) del repositorio.
+5. Dé **Enter** o clic en <img align="float" width="15" height="15" src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png"> para buscar el repositorio.
+6. Dé clic en el nombre del archivo de python **Vision_17_StyleTransfer.ipynb**.
 
 ![](https://drive.google.com/uc?export=view&id=1qYRuMZAU2hzN-q42NX-nKoM4JxOBu4U4)
 
-Si desea modificar el código será necesario guardar una copia en su Drive, por ello:
+**Nota**. Si desea modificar el código será necesario guardar una copia en su Drive, por ello:
 
-1. Da clic en **Archivo**
-2. Da clic en **Guardar una copia en Drive** 
+1. Dé clic en **Archivo**
+2. Dé clic en **Guardar una copia en Drive** 
 
-**Nota**. Podrá descargar el código dando clic en **Descargar .ipynb** o **Descargar .py**.
+También podrá descargar el código dando clic en **Descargar .ipynb** o **Descargar .py**.
 
 ![](https://drive.google.com/uc?export=view&id=18gvCLVFUC__iCyH0bU_v4-tJl6wUt8TQ)
 
