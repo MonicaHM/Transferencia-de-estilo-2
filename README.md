@@ -31,7 +31,7 @@ Tomando en cuenta la jerarquía anterior, se ha demostrado que, las capas oculta
 # Obtenga el proyecto
 GitHub permite la obtención del proyecto tanto para su ejecución local como en la nube. A continuación, se mostrarán los pasos a seguir para cada opción.
 
-## Descargue el proyecto para ejecución local
+### Descargue el proyecto para ejecución local
 Si desea ejecutar el proyecto con algún editor de Python tal como [Spyder](https://www.spyder-ide.org) o [Jupyter](https://jupyter.org) será necesario descargar el proyecto ya sea como ZIP o, clonándolo desde la consola.
 
 #### Descargue como ZIP
@@ -56,7 +56,7 @@ Para clonar el repositorio desde la consola de comandos de Windows siga los sigu
 
 ![](https://drive.google.com/uc?export=view&id=1paI-pzf8uO7rG5e6mCBUqcq1D4VgJvEq)
 
-## Copie el proyecto a Google Colab
+### Copie el proyecto a Google Colab
 **Importante**. Es necesario que posea una cuenta de Google.
 
 1. Visita la página principal de [Google Colab](https://colab.research.google.com/).
