@@ -93,13 +93,13 @@ Para realizar la transferencia de estilo es necesario tener una imagen contenido
 
 **Importante**. Para evitar errores ejecute primero las secciones **1. Librerías** y **2.1 Funciones necesarias**.
 
-#### Cargue imágenes predeterminadas
+### Cargue imágenes predeterminadas
 
 Las imágenes predeterminadas se encuentran dentro de las sección **2.2 Cargar imágenes predeterminadas**. Al ejecutar esta sección se mostrarán las siguientes imágenes:
 
 ![](https://drive.google.com/uc?export=view&id=1EZBIiee1tXQY8HqTBP5Grdi2uB8Xda1W)
 
-#### Cargue imágenes propias
+### Cargue imágenes propias
 **Importante**. Si desea utilizar imágenes de su preferencia será necesario tenerlas guardadas con anterioridad dentro de su ordenador.
 
 1. Dé clic en <img align="float" width="15" height="15" src="https://img.icons8.com/metro/452/folder-invoices.png"> de la barra lateral.
